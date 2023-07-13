@@ -12,5 +12,7 @@
 
 **ProtoTypes**
 
+- **All objects have prototypes** = You can check the object’s prototype by using the Object.getPrototypeOf() function on the object, like Object.getPrototypeOf(player1).
 - Created outside of the object and inherited.  This saves duplicating the prototype into every object created.
 - created by objectName.prototype = object.create(nameOfPrototype.prototype)
+- **Prototypal inheritance** = This kind of inheritance using prototypes is hence named as Prototypal inheritance. JavaScript figures out which properties exist (or do not exist) on the object and starts traversing the chain to find the property or function.

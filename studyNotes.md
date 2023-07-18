@@ -1,9 +1,11 @@
 # Objective
 
-understand all the elements discussed in this video:
+Understand these design patterns:
 
-- https://youtu.be/FSs_JYwnAdI
-- https://youtu.be/lkIFF4maKMU
+- Plain Old JavaScript Objects and Object Constructors
+- Factory Functions and the Module Pattern
+- Classes
+- ES6 Modules
 
 
 # CSS
@@ -15,7 +17,7 @@ understand all the elements discussed in this video:
 
 **SCreen Break Points** = for mobile friendly design should break at 500px, 1000px, 1200px
 
-# Objects
+# Object Constructors
 **Constructor Objects** = What is the difference between class and a constructor?! in simple words a class is like a blueprint and defines the framework that other objects can inherit, a constructor is something that actually creates the object in the program whereas the class only gives the guidelines.
 
 **ProtoTypes**
@@ -36,3 +38,10 @@ These links look the most useful:
 - https://medium.com/free-code-camp/a-beginners-guide-to-javascript-s-prototype-9c049fe7b34
 - https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae
 - https://youtu.be/wstwjQ1yqWQ
+
+# Factory Functions
+
+- No need for the key word 'new' when creating and factory function and you only have sight to what is in the return statement (this makes this public).
+- BUT can access private functions not in the return statement, this is called 'closure'.
+- CLOSURE = The concept of closure is the idea that functions retain their scope even if they are passed around and called outside of that scope.  In the context of factory functions, closures allow us to create private variables and functions.
+- FF are great for encapsulation as it restricts access to only what is returned (public)

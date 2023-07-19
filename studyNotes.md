@@ -15,9 +15,11 @@ Understand these design patterns:
 
 **CSS Preprocessors** = SASS, LESS & Stylus
 
-**SCreen Break Points** = for mobile friendly design should break at 500px, 1000px, 1200px
+**Screen Break Points** = for mobile friendly design should break at 500px, 1000px, 1200px
 
-# Object Constructors
+# Object Constructors/ Function Constructors
+**NameSpaces** = this is used to stop conflicts of functions or variables named the same in different objects. [NameSpace](https://youtu.be/PZQQhirc448)
+
 **Constructor Objects** = What is the difference between class and a constructor?! in simple words a class is like a blueprint and defines the framework that other objects can inherit, a constructor is something that actually creates the object in the program whereas the class only gives the guidelines.
 
 **ProtoTypes**

@@ -64,3 +64,6 @@ Concatenative inheritance is the process of copying the properties from one obje
 - Functional Inheritance - Functions created for the purpose of extending existing objects are commonly referred to as functional mixins. The primary advantage of using functions for extension is that it allows you to use the function closure to encapsulate private data. In other words, you can enforce private state.
 
 - Module - IIFE = if you wrap a function with parentheses and then immediately call the function by adding () to the end of it it is invoke straight away.
+
+**Rule of thumb for use of Factory Functions or Modules**
+if you only ever need ONE of something (gameBoard, displayController), use a module. If you need multiples of something (players!), create them with factories.

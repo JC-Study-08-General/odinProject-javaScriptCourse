@@ -16,6 +16,10 @@ Understand these design patterns:
 **CSS Preprocessors** = SASS, LESS & Stylus
 
 **Screen Break Points** = for mobile friendly design should break at 500px, 1000px, 1200px
+# Design Patterns
+This is a great site with all the patterns explain in it:
+
+[Patterns](https://www.patterns.dev/posts#design-patterns)
 
 # Object Constructors/ Function Constructors
 **NameSpaces** = this is used to stop conflicts of functions or variables named the same in different objects. [NameSpace](https://youtu.be/PZQQhirc448)
@@ -44,6 +48,19 @@ These links look the most useful:
 # Factory Functions
 
 - No need for the key word 'new' when creating and factory function and you only have sight to what is in the return statement (this makes this public).
-- BUT can access private functions not in the return statement, this is called 'closure'.
+- Closures - BUT can access private functions not in the return statement, this is called 'closure'.
+- [What is a closure](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
 - CLOSURE = The concept of closure is the idea that functions retain their scope even if they are passed around and called outside of that scope.  In the context of factory functions, closures allow us to create private variables and functions.
 - FF are great for encapsulation as it restricts access to only what is returned (public)
+- You can avoid property delegation by setting the prototype to `null` using `Object.create(null)`.
+
+**Concatenative Inheritance / Cloning / Mixins**
+Concatenative inheritance is the process of copying the properties from one object to another, without retaining a reference between the two objects. It relies on JavaScript’s dynamic object extension feature.
+
+- Cloning is a great way to store default state for objects: This process is commonly achieved using `Object.assign()`.
+
+- Mixins - For example, you can turn any object into an event emitter by mixing in an `EventEmitter3` prototype.
+
+- Functional Inheritance - Functions created for the purpose of extending existing objects are commonly referred to as functional mixins. The primary advantage of using functions for extension is that it allows you to use the function closure to encapsulate private data. In other words, you can enforce private state.
+
+- Module - IIFE = if you wrap a function with parentheses and then immediately call the function by adding () to the end of it it is invoke straight away.

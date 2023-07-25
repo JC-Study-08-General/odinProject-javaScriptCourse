@@ -45,7 +45,7 @@ These links look the most useful:
 - https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae
 - https://youtu.be/wstwjQ1yqWQ
 
-# Factory Functions
+# Factory Functions and the Module Pattern
 
 - No need for the key word 'new' when creating and factory function and you only have sight to what is in the return statement (this makes this public).
 - Closures - BUT can access private functions not in the return statement, this is called 'closure'.
@@ -67,3 +67,14 @@ Concatenative inheritance is the process of copying the properties from one obje
 
 **Rule of thumb for use of Factory Functions or Modules**
 if you only ever need ONE of something (gameBoard, displayController), use a module. If you need multiples of something (players!), create them with factories.
+
+# Classes
+Reference [Article](https://javascript.info/class) for Class 
+
+Getters and Setters reference [Article](https://javascript.info/property-accessors)
+- **[Getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)** a function without arguments, that works when a property is read.
+- **[Setters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set)** a function with one argument, that is called when the property is set.
+
+- **[Extends](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends)** The extends keyword is used in class declarations or class expressions to create a class that is a child of another class.
+
+# ES6 Modules

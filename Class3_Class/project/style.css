@@ -1,0 +1,61 @@
+body {
+  font-family: sans;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#book {
+  background-color: lightgrey;
+  border: solid thin darkgray;
+  padding: 1.5em;
+  border-radius: 0.25em;
+}
+
+#books-pane {
+  margin-top: 2em;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 2em 2em 1em 0em;
+}
+
+#books-pane .book {
+  display: inline-block;
+  width: 20em;
+  align-items: center;
+  background-color: lightyellow;
+  border: thin orange solid;
+  border-radius: 0.25em;
+  padding: 0.5em 2em;  
+}
+
+.read {
+  margin-left: 2em;
+}
+
+.read:hover {
+  color: green
+}
+
+.just-created {
+  box-shadow: 0 0 20px 1px orange;
+}
+
+span {
+  cursor: pointer;
+}
+
+.book:hover {
+  box-shadow: 0 0 20px 1px red;
+}
+
+button {
+  margin-left: 1em;
+}

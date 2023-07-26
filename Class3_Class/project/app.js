@@ -1,15 +1,19 @@
+// Object Constructor
+class Book {
+  constructor(title, author, pages, read) {
+    this.title = title
+    this.author = author
+    this.pages = pages
+    this.read = read
+  }
+
+  info() {
+    return `${this.title} by ${this.author}, ${this.pages} pages, ${this.read ? 'read' : 'not read yet'}`
+  }
+}
+
 let myLibrary = [new Book('test','test',10,true), new Book('test2','test2',210,false)];
 console.log(myLibrary)
-
-// Object Constructor
-function Book(title, author, pages, read) {
-  this.title = title
-  this.author = author
-  this.pages = pages
-  this.read = read
-
-  this.info = () => `${this.title} by ${this.author}, ${this.pages} pages, ${this.read ? 'read' : 'not read yet'}`
-}
 
 // Form Data
 const form = document.querySelector('form');

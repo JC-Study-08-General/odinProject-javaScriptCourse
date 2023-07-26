@@ -72,8 +72,8 @@ if you only ever need ONE of something (gameBoard, displayController), use a mod
 Reference [Article](https://javascript.info/class) for Class 
 
 Getters and Setters reference [Article](https://javascript.info/property-accessors)
-- **[Getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)** a function without arguments, that works when a property is read.
-- **[Setters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set)** a function with one argument, that is called when the property is set.
+- **[Getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)** a function without arguments, that works when a property is read i.e. Do not use () to run the function.
+- **[Setters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set)** a function with one argument, that is called when the property is set i.e. Do not use () to run the function.
 
 - **[Extends](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends)** The extends keyword is used in class declarations or class expressions to create a class that is a child of another class.
 

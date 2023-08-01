@@ -7,6 +7,8 @@ Understand these design patterns:
 - Classes
 - ES6 Modules
 
+Great read on the history of JavaScript - [Article](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
+
 
 # CSS
 **CSS Functions** = calc, max, min & clamp [w3School-CSS Functions](https://www.w3schools.com/cssref/css_functions.php)
